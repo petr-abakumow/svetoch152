@@ -1,11 +1,11 @@
 @font-face {
   font-family: "AGBengaly";
-  src: url(/fonts/1601622742dh.ttf);
+  src: url(./fonts/1601622742dh.ttf);
 }
 
 @font-face {
   font-family: "Caslon Becker";
-  src: url(/fonts/ofont.ru_Caslon_Becker.ttf);
+  src: url(./fonts/ofont.ru_Caslon_Becker.ttf);
 }
 
 * {
@@ -174,7 +174,7 @@ body.modal-open {
   display: none;
   width: 26px;
   height: 18px;
-  background-image: url(/image/menu-icon.svg);
+  background-image: url(./image/menu-icon.svg);
   background-position: center;
   background-size: contain;
 }
@@ -730,33 +730,33 @@ body.modal-open {
   max-width: 300px;
   height: 300px;
   border-radius: 50%;
-  background-image: url(/image/kira-promo.jpg);
+  background-image: url(./image/kira-promo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .persons-item_image-block-1 {
-  background-image: url(/image/kira.jpg);
+  background-image: url(./image/kira.jpg);
 }
 
 .persons-item_image-block-2 {
-  background-image: url(/image/vitaliy.jpg);
+  background-image: url(./image/vitaliy.jpg);
 }
 
 .persons-item_image-block-3 {
-  background-image: url(/image/denis.jpg);
+  background-image: url(./image/denis.jpg);
 }
 
 .persons-item_image-block-4 {
-  background-image: url(/image/senya.jpg);
+  background-image: url(./image/senya.jpg);
 }
 
 .persons-item_image-block-5 {
-  background-image: url(/image/ilya.jpg);
+  background-image: url(./image/ilya.jpg);
 }
 
 .persons-item_image-block-6 {
-  background-image: url(/image/petr.jpg);
+  background-image: url(./image/petr.jpg);
 }
 
 .label-deskription {
@@ -860,12 +860,12 @@ body.modal-open {
 }
 
 .library_image__nots {
-  background-image: url(/image/sdgfbexcgf.jpg);
+  background-image: url(./image/sdgfbexcgf.jpg);
   background-size: cover;
 }
 
 .library_image__texts {
-  background-image: url(/image/dgbxvdcx.jpg);
+  background-image: url(./image/dgbxvdcx.jpg);
   background-size: cover;
 }
 
@@ -1314,7 +1314,7 @@ div.section_link:hover {
   }
 
   .section-header {
-    background-image: url(/image/o-nas-3.jpg);
+    background-image: url(./image/o-nas-3.jpg);
   }
 
   .header_text-container {
