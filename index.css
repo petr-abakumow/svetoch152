@@ -65,7 +65,7 @@ body.modal-open {
 }
 
 .section-header {
-  background-image: url("/image/IMG_5956.jpg");
+  background-image: url("./image/IMG_5956.jpg");
   background-position: top;
   background-size: cover;
 }
@@ -774,7 +774,7 @@ body.modal-open {
 }
 
 .repertoire {
-  background-image: url("/image/fon-repertoire-2.jpg");
+  background-image: url("./image/fon-repertoire-2.jpg");
   background-position: top;
   background-size: cover;
 }
