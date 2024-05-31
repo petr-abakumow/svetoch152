@@ -1,0 +1,25 @@
+{
+  "name": "Светоч",
+  "short_name": "Светоч",
+  "icons": [{
+        "src": "/image/apple-icon.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      }, {
+        "src": "/image/apple-icon.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      }, {
+        "src": "/image/apple-icon.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }, {
+        "src": "/image/apple-icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }],
+  "start_url": "https://www.svetoch152.ru/",
+  "display": "standalone",
+  "background_color": "#3E4EB8",
+  "theme_color": "#fbe9d1"
+}

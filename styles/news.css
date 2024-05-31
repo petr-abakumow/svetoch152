@@ -1,0 +1,81 @@
+.menu-item_link_active {
+    border-bottom: 1px solid white;
+}
+
+.section-header__news {
+    background-image: url('/image/devushka-v-napechatanoj-knige-na-fone.jpg');
+}
+
+.section-header_over_mod {
+    opacity: 0.9;
+}
+
+.news__header-text {
+    font-size: 20px;
+    color: white;
+    max-width: 600px;
+    letter-spacing: 3px;
+    line-height: 1.4;
+    margin: auto 0;
+}
+
+.section-header_over__other-page {
+    min-height: 100%;
+}
+
+.header-title__other-page, .header-text__other-page {
+    max-width: 100%;
+    text-align: center;
+    font-family: inherit;
+}
+
+.header_text-container__other-page {
+    padding: 50px 0;
+    margin: 100px auto;
+}
+
+.news-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-news-box {
+    width: 100%;
+}
+
+.box-background_first {
+    background-color: #FBE9D1;
+}
+
+.box-background_second {
+    background-color: #BD8A40;
+}
+
+.box-background_second h3, .box-background_second p {
+    color: white;
+}
+
+.news-page__item {
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 100px 50px;
+}
+
+.news-page__item .popup_text-container {
+    max-width: 530px;
+}
+
+.news-page__item .popup_image {
+    object-position: left;
+}
+
+@media (max-width: 1024px) {
+    .section-header_over_mod {
+        background: linear-gradient(333deg, #000 0%, rgba(0, 0, 0, 0.7) 100%);
+    }
+
+    .news-page__item .popup_image {
+        object-position: center;
+    }
+}

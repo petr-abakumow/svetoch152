@@ -1,0 +1,234 @@
+.menu-item_link_active {
+    border-bottom: 1px solid white;
+}
+
+.section-header_library {
+    background-image: url('/image/fon-library.jpg');
+}
+
+.library__header-text {
+    font-size: 20px;
+    color: white;
+    max-width: 600px;
+    letter-spacing: 3px;
+    line-height: 1.4;
+    margin: auto 0;
+}
+
+.section-library {
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #FBE9D1;
+    padding: 130px 0;
+    position: relative;
+}
+
+.section-header_over_mod {
+    opacity: 0.9;
+}
+
+.section-library_mod-background-color {
+    background-color: #BD8A40;
+}
+
+.content-container {
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.section-title {
+    
+}
+
+.library__content-box {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.library-item {
+
+}
+
+.library-item:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.library-item__text-box {
+    justify-content: space-between;
+}
+
+.library-item__text-box, .library-item__text-box_second-lvl, .library-item__text-box_threed-lvl {
+    display: flex;
+    overflow: hidden;
+    gap: 10px;
+}
+
+.library-item__text {
+    margin: 0;
+}
+
+.library-item_first-lvl {
+    border: 1px solid #BD8A40;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.library-item_first-lvl__content-box {
+    margin: 30px 0;
+}
+
+.library-item_first-lvl__content-box, .library-item_second-lvl__content-box, .library-item_threed-lvl__content-box {
+    display: none;
+    flex-direction: column;
+}
+
+.library-item__link {
+    border-top: 1px solid rgb(189 138 64 / 70%);
+    padding: 10px 0;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-library .section-title {
+    color: #BD8A40;
+}
+
+.section-library .library-item__text {
+    color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    max-width: 300px;
+}
+
+.section-library_mod-background-color .section-title, .section-library_mod-background-color .library-item__text {
+    color: white;
+}
+
+
+.second-lvl__visible {
+    display: flex;
+}
+
+.opacity-none {
+    opacity: 1 !important;
+}
+
+.link__library-text {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.link-span {
+    font-size: 36px;
+    margin-bottom: 4px;
+}
+
+.dovloads-icon {
+    margin-left: auto;
+}
+
+.library-item__text_span {
+    min-width: 20px;
+    height: 10px;
+    margin: auto 0;
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    margin: auto 5px;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    transform: rotate(-45deg);
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 4px;
+}
+
+.arrow-mod {
+    border-color: white;
+}
+
+.open-closed_icon__mod {
+    transform: rotate(135deg);
+    margin-top: 18px;
+    transition: 0.3s;
+}
+
+.library-item_second-lvl .arrow, .library-item_threed-lvl .arrow {
+    width: 10px;
+    height: 10px;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    transform: rotate(220deg);
+}
+
+.library-item_second-lvl .open-closed_icon__mod, .library-item_threed-lvl .open-closed_icon__mod {
+    transform: rotate(312deg);
+    margin-top: 10px;
+}
+
+.library-item_first-lvl__mod {
+    border-color: white;
+}
+
+.library-item__link_mod {
+    color: white;
+}
+
+.library-item_second-lvl {
+    margin-left: 10px;
+}
+
+.library-item_threed-lvl {
+    margin-left: 10px;
+}
+
+.library-item_second-lvl p, .library-item_threed-lvl p {
+    font-size: 26px;
+    padding: 5px 0;
+}
+
+.content-container__for-anchor {
+    position: relative;
+}
+
+#anchor-texts {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+}
+
+@media (max-width: 1024px) {
+
+    .section-library {
+        padding: 100px 0;
+    }
+
+
+    .library-item_first-lvl {
+        border: none;
+    }
+
+    .section-header_over_mod {
+        background: linear-gradient(333deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
+    }
+}
+

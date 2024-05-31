@@ -1,0 +1,69 @@
+.menu-item_link_active {
+    border-bottom: 1px solid white;
+}
+
+.about-page {
+    background-color: #FBE9D1;
+}
+
+.about__subtitle {
+    margin-top: 30px;
+}
+
+.list {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.list_item {
+    list-style-type: disc;
+}
+
+.about-me_text__mod {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.about-me_text-block__mod {
+    display: block;
+}
+
+.about-me_image__mod {
+    float: right;
+}
+
+.persons-item_text-block__mod {
+    max-width: none;
+}
+
+.about-person__image {
+    width: 400px !important;
+    height: 400px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    position: relative !important;
+    float: right;
+}
+
+.persons-item_texts__mod {
+    display: block;
+}
+
+.person-item_text__mod {
+    margin-top: 15px;
+}
+
+@media (max-width: 1024px) {
+    .about-me_image__mod {
+        width: 230px;
+    }
+
+    .about-person__image {
+        width: 300px !important;
+        height: 300px !important;
+        margin-bottom: 15px;
+    }
+
+}
